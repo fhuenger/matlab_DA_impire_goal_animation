@@ -1,4 +1,4 @@
-function vid3_area(ht,frames)
+% function vid3_area(ht,frames)
 %% erzeugt ein Video der Spielszene
 % benötigt team/ball-daten, sowie tw_team-daten
 % vid3_daten_in_m;
@@ -173,4 +173,4 @@ end
 cd(save_path);
 movie2avi(M, '138312_1_0_64769_65019.avi', 'compression', 'none', 'fps', 25, 'quality', 100); 
 cd(m_path);
-end
+% end
